@@ -14,7 +14,7 @@ jobs:
         system: [aarch64-darwin, x86_64-darwin, x86_64-linux]
       fail-fast: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: om show
         run: om show .
       - name: om ci
